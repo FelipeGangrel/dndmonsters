@@ -23,10 +23,19 @@ export class MonstrosProvider {
         .map(res => res.json())
         .subscribe(data => {
           this.data = data;
+          this.data = this.sortByKey(this.data, 'name');
           resolve(this.data);
         })
     });
 
+  }
+
+
+  sortByKey(array, key) {
+    return array.sort((a, b) =>{
+        let x = a[key]; let y = b[key];
+        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+    });
   }
 
 }

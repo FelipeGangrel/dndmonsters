@@ -48,7 +48,7 @@ export class MonstroPage {
   }
 
   ionViewDidLoad() {
-    console.log(this.monstro);
+    
   }
 
   calcModifier(value: number){

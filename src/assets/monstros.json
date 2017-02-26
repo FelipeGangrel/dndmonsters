@@ -132,8 +132,8 @@
     ]
   },
   {
-    "name": "Adult Black Dragon",
-    "image":"adult_black_dragon.jpg",
+    "name": "Black Dragon (Adult)",
+    "image":"black_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -231,8 +231,8 @@
     ]
   },
   {
-    "name": "Adult Blue Dracolich",
-    "image":"",
+    "name": "Blue Dracolich (Adult)",
+    "image":"blue_dracolith.jpg",
     "size": "Huge",
     "type": "undead",
     "subtype": "",
@@ -325,8 +325,8 @@
     ]
   },
   {
-    "name": "Adult Blue Dragon",
-    "image":"",
+    "name": "Blue Dragon (Adult)",
+    "image":"blue_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -419,8 +419,8 @@
     ]
   },
   {
-    "name": "Adult Brass Dragon",
-    "image":"",
+    "name": "Brass Dragon (Adult)",
+    "image":"brass_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -498,8 +498,8 @@
     ]
   },
   {
-    "name": "Adult Bronze Dragon",
-    "image":"",
+    "name": "Bronze Dragon (Adult)",
+    "image":"bronze_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -598,8 +598,8 @@
     ]
   },
   {
-    "name": "Adult Copper Dragon",
-    "image":"",
+    "name": "Copper Dragon (Adult)",
+    "image":"copper_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -693,8 +693,8 @@
     ]
   },
   {
-    "name": "Adult Gold Dragon",
-    "image":"",
+    "name": "Gold Dragon (Adult)",
+    "image":"gold_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -794,8 +794,8 @@
     ]
   },
   {
-    "name": "Adult Green Dragon",
-    "image":"",
+    "name": "Green Dragon (Adult)",
+    "image":"green_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -896,8 +896,8 @@
     ]
   },
   {
-    "name": "Adult Red Dragon",
-    "image":"",
+    "name": "Red Dragon (Adult)",
+    "image":"red_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -996,8 +996,8 @@
     ]
   },
   {
-    "name": "Adult Silver Dragon",
-    "image":"",
+    "name": "Silver Dragon (Adult)",
+    "image":"silver_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -1092,8 +1092,8 @@
     ]
   },
   {
-    "name": "Adult White Dragon",
-    "image":"",
+    "name": "White Dragon (Adult)",
+    "image":"white_dragon.jpg",
     "size": "Huge",
     "type": "dragon",
     "subtype": "",
@@ -1192,7 +1192,7 @@
   },
   {
     "name": "Air Elemental",
-    "image":"",
+    "image":"air_elemental.jpg",
     "size": "Large",
     "type": "elemental",
     "subtype": "",
@@ -1242,8 +1242,8 @@
     ]
   },
   {
-    "name": "Ancient Black Dragon",
-    "image":"",
+    "name": "Black Dragon (Ancient)",
+    "image":"black_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1345,8 +1345,8 @@
     ]
   },
   {
-    "name": "Ancient Blue Dragon",
-    "image":"",
+    "name": "Blue Dragon (Ancient)",
+    "image":"blue_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1432,8 +1432,8 @@
     ]
   },
   {
-    "name": "Ancient Brass Dragon",
-    "image":"",
+    "name": "Brass Dragon (Ancient)",
+    "image":"brass_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1533,8 +1533,8 @@
     ]
   },
   {
-    "name": "Ancient Bronze Dragon",
-    "image":"",
+    "name": "Bronze Dragon (Ancient)",
+    "image":"bronze_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1638,8 +1638,8 @@
     ]
   },
   {
-    "name": "Ancient Copper Dragon",
-    "image":"",
+    "name": "Copper Dragon (Ancient)",
+    "image":"copper_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1738,8 +1738,8 @@
     ]
   },
   {
-    "name": "Ancient Gold Dragon",
-    "image":"",
+    "name": "Gold Dragon (Ancient)",
+    "image":"gold_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1844,8 +1844,8 @@
     ]
   },
   {
-    "name": "Ancient Green Dragon",
-    "image":"",
+    "name": "Green Dragon (Ancient)",
+    "image":"green_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -1946,8 +1946,8 @@
     ]
   },
   {
-    "name": "Ancient Red Dragon",
-    "image":"",
+    "name": "Red Dragon (Ancient)",
+    "image":"red_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -2040,8 +2040,8 @@
     ]
   },
   {
-    "name": "Ancient Silver Dragon",
-    "image":"",
+    "name": "Silver Dragon (Ancient)",
+    "image":"silver_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -2141,8 +2141,8 @@
     ]
   },
   {
-    "name": "Ancient White Dragon",
-    "image":"",
+    "name": "White Dragon (Ancient)",
+    "image":"white_dragon.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -2224,7 +2224,7 @@
   },
   {
     "name": "Androsphinx",
-    "image":"",
+    "image":"androsphinx.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -2309,7 +2309,7 @@
   },
   {
     "name": "Animated Armor",
-    "image":"",
+    "image":"animated_armor.jpg",
     "size": "Medium",
     "type": "construct",
     "subtype": "",
@@ -2360,7 +2360,7 @@
   },
   {
     "name": "Ankheg",
-    "image":"",
+    "image":"ankheg.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -2400,7 +2400,7 @@
   },
   {
     "name": "Ape",
-    "image":"",
+    "image":"ape.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -2448,7 +2448,7 @@
   },
   {
     "name": "Archmage",
-    "image":"",
+    "image":"archmage.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -2498,7 +2498,7 @@
   },
   {
     "name": "Assassin",
-    "image":"",
+    "image":"assassin.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -2568,7 +2568,7 @@
   },
   {
     "name": "Awakened Shrub",
-    "image":"",
+    "image":"awakened_shrub.jpg",
     "size": "Small",
     "type": "plant",
     "subtype": "",
@@ -2609,7 +2609,7 @@
   },
   {
     "name": "Awakened Tree",
-    "image":"",
+    "image":"awakened_tree.jpg",
     "size": "Huge",
     "type": "plant",
     "subtype": "",
@@ -2650,7 +2650,7 @@
   },
   {
     "name": "Axe Beak",
-    "image":"",
+    "image":"axe_beak.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -2684,7 +2684,7 @@
   },
   {
     "name": "Azer",
-    "image":"",
+    "image":"azer.jpg",
     "size": "Medium",
     "type": "elemental",
     "subtype": "",
@@ -2737,7 +2737,7 @@
   },
   {
     "name": "Baboon",
-    "image":"",
+    "image":"baboon.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -2778,7 +2778,7 @@
   },
   {
     "name": "Badger",
-    "image":"",
+    "image":"badger.jpg",
     "size": "Tiny",
     "type": "beast",
     "subtype": "",
@@ -2818,7 +2818,7 @@
   },
   {
     "name": "Balor",
-    "image":"",
+    "image":"balor.jpg",
     "size": "Huge",
     "type": "fiend",
     "subtype": "demon",
@@ -2902,7 +2902,7 @@
   },
   {
     "name": "Bandit",
-    "image":"",
+    "image":"bandit.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -2943,7 +2943,7 @@
   },
   {
     "name": "Bandit Captain",
-    "image":"",
+    "image":"bandit_captain.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -3001,7 +3001,7 @@
   },
   {
     "name": "Barbed Devil",
-    "image":"",
+    "image":"barbed_devil.jpg",
     "size": "Medium",
     "type": "fiend",
     "subtype": "devil",
@@ -3078,7 +3078,7 @@
   },
   {
     "name": "Basilisk",
-    "image":"",
+    "image":"basilisk.jpg",
     "size": "Medium",
     "type": "monstrosity",
     "subtype": "",
@@ -3119,7 +3119,7 @@
   },
   {
     "name": "Bat",
-    "image":"",
+    "image":"bat.jpg",
     "size": "Tiny",
     "type": "beast",
     "subtype": "",
@@ -3164,7 +3164,7 @@
   },
   {
     "name": "Bearded Devil",
-    "image":"",
+    "image":"bearded_devil.jpg",
     "size": "Medium",
     "type": "fiend",
     "subtype": "devil",
@@ -3230,7 +3230,7 @@
   },
   {
     "name": "Behir",
-    "image":"",
+    "image":"behir.jpg",
     "size": "Huge",
     "type": "monstrosity",
     "subtype": "",
@@ -3290,7 +3290,7 @@
   },
   {
     "name": "Berserker",
-    "image":"",
+    "image":"berserker.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -3331,7 +3331,7 @@
   },
   {
     "name": "Black Bear",
-    "image":"",
+    "image":"black_bear.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -3384,7 +3384,7 @@
   },
   {
     "name": "Black Dragon Wyrmling",
-    "image":"",
+    "image":"black_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -3437,7 +3437,7 @@
   },
   {
     "name": "Black Pudding",
-    "image":"",
+    "image":"black_pudding.jpg",
     "size": "Large",
     "type": "ooze",
     "subtype": "",
@@ -3496,7 +3496,7 @@
   },
   {
     "name": "Blink Dog",
-    "image":"",
+    "image":"blink_dog.jpg",
     "size": "Medium",
     "type": "fey",
     "subtype": "",
@@ -3544,7 +3544,7 @@
   },
   {
     "name": "Blood Hawk",
-    "image":"",
+    "image":"blood_hawk.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -3591,7 +3591,7 @@
   },
   {
     "name": "Blue Dragon Wyrmling",
-    "image":"",
+    "image":"blue_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -3637,7 +3637,7 @@
   },
   {
     "name": "Boar",
-    "image":"",
+    "image":"boar.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -3684,7 +3684,7 @@
   },
   {
     "name": "Bone Devil",
-    "image":"",
+    "image":"bone_devil.jpg",
     "size": "Large",
     "type": "fiend",
     "subtype": "devil",
@@ -3766,7 +3766,7 @@
   },
   {
     "name": "Brass Dragon Wyrmling",
-    "image":"",
+    "image":"brass_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -3812,7 +3812,7 @@
   },
   {
     "name": "Bronze Dragon Wyrmling",
-    "image":"",
+    "image":"bronze_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -3865,7 +3865,7 @@
   },
   {
     "name": "Brown Bear",
-    "image":"",
+    "image":"brown_bear.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -3919,7 +3919,7 @@
   },
   {
     "name": "Bugbear",
-    "image":"",
+    "image":"bugbear.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "goblinoid",
@@ -3975,7 +3975,7 @@
   },
   {
     "name": "Bulette",
-    "image":"",
+    "image":"bulette.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -4022,7 +4022,7 @@
   },
   {
     "name": "Camel",
-    "image":"",
+    "image":"camel.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -4055,7 +4055,7 @@
   },
   {
     "name": "Carrion Crawler",
-    "image":"",
+    "image":"carrion_crawler.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -4114,7 +4114,7 @@
   },
   {
     "name": "Cat",
-    "image":"",
+    "image":"cat.jpg",
     "size": "Tiny",
     "type": "beast",
     "subtype": "",
@@ -4156,7 +4156,7 @@
   },
   {
     "name": "Cave Bear",
-    "image":"",
+    "image":"cave_bear.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -4210,7 +4210,7 @@
   },
   {
     "name": "Centaur",
-    "image":"",
+    "image":"centaur.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -4274,7 +4274,7 @@
   },
   {
     "name": "Chain Devil",
-    "image":"",
+    "image":"chain_devil.jpg",
     "size": "Medium",
     "type": "fiend",
     "subtype": "devil",
@@ -4337,7 +4337,7 @@
   },
   {
     "name": "Chimera",
-    "image":"",
+    "image":"chimera.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -4397,7 +4397,7 @@
   },
   {
     "name": "Chuul",
-    "image":"",
+    "image":"chuul.jpg",
     "size": "Large",
     "type": "aberration",
     "subtype": "",
@@ -4454,7 +4454,7 @@
   },
   {
     "name": "Clay Golem",
-    "image":"",
+    "image":"clay_golem.jpg",
     "size": "Large",
     "type": "construct",
     "subtype": "",
@@ -4525,7 +4525,7 @@
   },
   {
     "name": "Cloaker",
-    "image":"",
+    "image":"cloaker.jpg",
     "size": "Large",
     "type": "aberration",
     "subtype": "",
@@ -4599,7 +4599,7 @@
   },
   {
     "name": "Cloud Giant",
-    "image":"",
+    "image":"cloud_giant.jpg",
     "size": "Huge",
     "type": "giant",
     "subtype": "",
@@ -4662,7 +4662,7 @@
   },
   {
     "name": "Cockatrice",
-    "image":"",
+    "image":"cockatrice.jpg",
     "size": "Small",
     "type": "monstrosity",
     "subtype": "",
@@ -4696,7 +4696,7 @@
   },
   {
     "name": "Commoner",
-    "image":"",
+    "image":"commoner.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -4729,7 +4729,7 @@
   },
   {
     "name": "Constrictor Snake",
-    "image":"",
+    "image":"constrictor_snake.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -4770,7 +4770,7 @@
   },
   {
     "name": "Copper Dragon Wyrmling",
-    "image":"",
+    "image":"copper_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -4816,7 +4816,7 @@
   },
   {
     "name": "Couatl",
-    "image":"",
+    "image":"couatl.jpg",
     "size": "Medium",
     "type": "celestial",
     "subtype": "",
@@ -4882,7 +4882,7 @@
   },
   {
     "name": "Crab",
-    "image":"",
+    "image":"crab.jpg",
     "size": "Tiny",
     "type": "beast",
     "subtype": "",
@@ -4923,7 +4923,7 @@
   },
   {
     "name": "Crocodile",
-    "image":"",
+    "image":"crocodile.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -4965,7 +4965,7 @@
   },
   {
     "name": "Cult Fanatic",
-    "image":"",
+    "image":"cult_fanatic.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -5019,7 +5019,7 @@
   },
   {
     "name": "Cultist",
-    "image":"",
+    "image":"cultist.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -5062,7 +5062,7 @@
   },
   {
     "name": "Darkmantle",
-    "image":"",
+    "image":"darkmantle.jpg",
     "size": "Small",
     "type": "monstrosity",
     "subtype": "",
@@ -5114,7 +5114,7 @@
   },
   {
     "name": "Death Dog",
-    "image":"",
+    "image":"death_dog.jpg",
     "size": "Medium",
     "type": "monstrosity",
     "subtype": "",
@@ -5162,7 +5162,7 @@
   },
   {
     "name": "Deep Gnome (Svirfneblin)",
-    "image":"",
+    "image":"deep_gnome.jpg",
     "size": "Small",
     "type": "humanoid",
     "subtype": "gnome",
@@ -5223,7 +5223,7 @@
   },
   {
     "name": "Deer",
-    "image":"",
+    "image":"deer.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -5256,7 +5256,7 @@
   },
   {
     "name": "Deva",
-    "image":"",
+    "image":"deva.jpg",
     "size": "Medium",
     "type": "celestial",
     "subtype": "",
@@ -5326,7 +5326,7 @@
   },
   {
     "name": "Dire Wolf",
-    "image":"",
+    "image":"dire_wolf.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -5374,7 +5374,7 @@
   },
   {
     "name": "Djinni",
-    "image":"",
+    "image":"djinni.jpg",
     "size": "Large",
     "type": "elemental",
     "subtype": "",
@@ -5438,7 +5438,7 @@
   },
   {
     "name": "Doppelganger",
-    "image":"",
+    "image":"doppelganger.jpg",
     "size": "Medium",
     "type": "monstrosity",
     "subtype": "shapechanger",
@@ -5502,7 +5502,7 @@
   },
   {
     "name": "Draft Horse",
-    "image":"",
+    "image":"draft_horse.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -5536,7 +5536,7 @@
   },
   {
     "name": "Dragon Turtle",
-    "image":"",
+    "image":"dragon_turtle.jpg",
     "size": "Gargantuan",
     "type": "dragon",
     "subtype": "",
@@ -5605,7 +5605,7 @@
   },
   {
     "name": "Dretch",
-    "image":"",
+    "image":"dretch.jpg",
     "size": "Small",
     "type": "fiend",
     "subtype": "demon",
@@ -5654,7 +5654,7 @@
   },
   {
     "name": "Drider",
-    "image":"",
+    "image":"drider.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -5736,7 +5736,7 @@
   },
   {
     "name": "Drow",
-    "image":"",
+    "image":"drow.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "elf",
@@ -5796,7 +5796,7 @@
   },
   {
     "name": "Druid",
-    "image":"",
+    "image":"druid.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -5839,7 +5839,7 @@
   },
   {
     "name": "Dryad",
-    "image":"",
+    "image":"dryad.jpg",
     "size": "Medium",
     "type": "fey",
     "subtype": "",
@@ -5901,7 +5901,7 @@
   },
   {
     "name": "Duergar",
-    "image":"",
+    "image":"duergar.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "dwarf",
@@ -5964,7 +5964,7 @@
   },
   {
     "name": "Dust Mephit",
-    "image":"",
+    "image":"dust_mephit.jpg",
     "size": "Small",
     "type": "elemental",
     "subtype": "",
@@ -6022,7 +6022,7 @@
   },
   {
     "name": "Eagle",
-    "image":"",
+    "image":"eagle.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -6064,7 +6064,7 @@
   },
   {
     "name": "Earth Elemental",
-    "image":"",
+    "image":"earth_elemental.jpg",
     "size": "Large",
     "type": "elemental",
     "subtype": "",
@@ -6115,7 +6115,7 @@
   },
   {
     "name": "Efreeti",
-    "image":"",
+    "image":"efreeti.jpg",
     "size": "Large",
     "type": "elemental",
     "subtype": "",
@@ -6180,7 +6180,7 @@
   },
   {
     "name": "Elephant",
-    "image":"",
+    "image":"elephant.jpg",
     "size": "Huge",
     "type": "beast",
     "subtype": "",
@@ -6228,7 +6228,7 @@
   },
   {
     "name": "Elk",
-    "image":"",
+    "image":"elk.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -6273,7 +6273,7 @@
   },
   {
     "name": "Erinyes",
-    "image":"",
+    "image":"erinyes.jpg",
     "size": "Medium",
     "type": "fiend",
     "subtype": "devil",
@@ -6347,7 +6347,7 @@
   },
   {
     "name": "Ettercap",
-    "image":"",
+    "image":"ettercap.jpg",
     "size": "Medium",
     "type": "monstrosity",
     "subtype": "",
@@ -6425,7 +6425,7 @@
   },
   {
     "name": "Ettin",
-    "image":"",
+    "image":"ettin.jpg",
     "size": "Large",
     "type": "giant",
     "subtype": "",
@@ -6484,7 +6484,7 @@
   },
   {
     "name": "Fire Elemental",
-    "image":"",
+    "image":"fire_elemental.jpg",
     "size": "Large",
     "type": "elemental",
     "subtype": "",
@@ -6541,7 +6541,7 @@
   },
   {
     "name": "Fire Giant",
-    "image":"",
+    "image":"fire_giant.jpg",
     "size": "Huge",
     "type": "giant",
     "subtype": "",
@@ -6592,7 +6592,7 @@
   },
   {
     "name": "Flesh Golem",
-    "image":"",
+    "image":"flesh_golem.jpg",
     "size": "Medium",
     "type": "construct",
     "subtype": "",
@@ -6663,7 +6663,7 @@
   },
   {
     "name": "Flying Snake",
-    "image":"",
+    "image":"flying_snake.jpg",
     "size": "Tiny",
     "type": "beast",
     "subtype": "",
@@ -6703,7 +6703,7 @@
   },
   {
     "name": "Flying Sword",
-    "image":"",
+    "image":"flying_sword.jpg",
     "size": "Small",
     "type": "construct",
     "subtype": "",
@@ -6750,7 +6750,7 @@
   },
   {
     "name": "Frog",
-    "image":"",
+    "image":"frog.jpg",
     "size": "Tiny",
     "type": "beast",
     "subtype": "",
@@ -6789,7 +6789,7 @@
   },
   {
     "name": "Frost Giant",
-    "image":"",
+    "image":"frost_giant.jpg",
     "size": "Huge",
     "type": "giant",
     "subtype": "",
@@ -6840,7 +6840,7 @@
   },
   {
     "name": "Gargoyle",
-    "image":"",
+    "image":"gargoyle.jpg",
     "size": "Medium",
     "type": "elemental",
     "subtype": "",
@@ -6893,7 +6893,7 @@
   },
   {
     "name": "Gelatinous Cube",
-    "image":"",
+    "image":"gelatinous_cube.jpg",
     "size": "Large",
     "type": "ooze",
     "subtype": "",
@@ -6943,7 +6943,7 @@
   },
   {
     "name": "Ghast",
-    "image":"",
+    "image":"ghast.jpg",
     "size": "Medium",
     "type": "undead",
     "subtype": "",
@@ -6996,7 +6996,7 @@
   },
   {
     "name": "Ghost",
-    "image":"",
+    "image":"ghost.jpg",
     "size": "Medium",
     "type": "undead",
     "subtype": "",
@@ -7057,7 +7057,7 @@
   },
   {
     "name": "Ghoul",
-    "image":"",
+    "image":"ghoul.jpg",
     "size": "Medium",
     "type": "undead",
     "subtype": "",
@@ -7096,7 +7096,7 @@
   },
   {
     "name": "Giant Ape",
-    "image":"",
+    "image":"giant_ape.jpg",
     "size": "Huge",
     "type": "beast",
     "subtype": "",
@@ -7144,7 +7144,7 @@
   },
   {
     "name": "Giant Badger",
-    "image":"",
+    "image":"giant_badger.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -7197,7 +7197,7 @@
   },
   {
     "name": "Giant Bat",
-    "image":"",
+    "image":"giant_bat.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7243,7 +7243,7 @@
   },
   {
     "name": "Giant Boar",
-    "image":"",
+    "image":"giant_boar.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7290,7 +7290,7 @@
   },
   {
     "name": "Giant Centipede",
-    "image":"",
+    "image":"giant_centipede.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -7324,7 +7324,7 @@
   },
   {
     "name": "Giant Constrictor Snake",
-    "image":"",
+    "image":"giant_constrictor_snake.jpg",
     "size": "Huge",
     "type": "beast",
     "subtype": "",
@@ -7366,7 +7366,7 @@
   },
   {
     "name": "Giant Crab",
-    "image":"",
+    "image":"giant_crab.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -7408,7 +7408,7 @@
   },
   {
     "name": "Giant Crocodile",
-    "image":"",
+    "image":"giant_crocodile.jpg",
     "size": "Huge",
     "type": "beast",
     "subtype": "",
@@ -7462,7 +7462,7 @@
   },
   {
     "name": "Giant Eagle",
-    "image":"",
+    "image":"giant_eagle.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7516,7 +7516,7 @@
   },
   {
     "name": "Giant Elk",
-    "image":"",
+    "image":"giant_elk.jpg",
     "size": "Huge",
     "type": "beast",
     "subtype": "",
@@ -7566,7 +7566,7 @@
   },
   {
     "name": "Giant Fire Beetle",
-    "image":"",
+    "image":"giant_fire_beetle.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -7607,7 +7607,7 @@
   },
   {
     "name": "Giant Frog",
-    "image":"",
+    "image":"giant_frog.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -7660,7 +7660,7 @@
   },
   {
     "name": "Giant Goat",
-    "image":"",
+    "image":"giant_goat.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7707,7 +7707,7 @@
   },
   {
     "name": "Giant Hyena",
-    "image":"",
+    "image":"giant_hyena.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7749,7 +7749,7 @@
   },
   {
     "name": "Giant Lizard",
-    "image":"",
+    "image":"giant_lizard.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7795,7 +7795,7 @@
   },
   {
     "name": "Giant Octopus",
-    "image":"",
+    "image":"giant_octopus.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7853,7 +7853,7 @@
   },
   {
     "name": "Giant Owl",
-    "image":"",
+    "image":"giant_owl.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -7901,7 +7901,7 @@
   },
   {
     "name": "Giant Poisonous Snake",
-    "image":"",
+    "image":"giant_poisonous_snake.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -7936,7 +7936,7 @@
   },
   {
     "name": "Giant Rat",
-    "image":"",
+    "image":"giant_rat.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -7982,7 +7982,7 @@
   },
   {
     "name": "Giant Rat (Diseased)",
-    "image":"",
+    "image":"giant_rat_diseased.jpg",
     "size": "Small",
     "type": "beast",
     "subtype": "",
@@ -8016,7 +8016,7 @@
   },
   {
     "name": "Giant Scorpion",
-    "image":"",
+    "image":"giant_scorpion.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -8062,7 +8062,7 @@
   },
   {
     "name": "Giant Sea Horse",
-    "image":"",
+    "image":"giant_sea_horse.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -8109,7 +8109,7 @@
   },
   {
     "name": "Giant Shark",
-    "image":"",
+    "image":"giant_shark.jpg",
     "size": "Huge",
     "type": "beast",
     "subtype": "",
@@ -8156,7 +8156,7 @@
   },
   {
     "name": "Giant Spider",
-    "image":"",
+    "image":"giant_spider.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -8213,7 +8213,7 @@
   },
   {
     "name": "Giant Toad",
-    "image":"",
+    "image":"giant_toad.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -8264,7 +8264,7 @@
   },
   {
     "name": "Giant Vulture",
-    "image":"",
+    "image":"giant_vulture.jpg",
     "size": "Large",
     "type": "beast",
     "subtype": "",
@@ -8323,7 +8323,7 @@
   },
   {
     "name": "Giant Wasp",
-    "image":"",
+    "image":"giant_wasp.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -8357,7 +8357,7 @@
   },
   {
     "name": "Giant Weasel",
-    "image":"",
+    "image":"giant_weasel.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -8400,7 +8400,7 @@
   },
   {
     "name": "Giant Wolf Spider",
-    "image":"",
+    "image":"giant_wolf_spider.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -8453,7 +8453,7 @@
   },
   {
     "name": "Gibbering Mouther",
-    "image":"",
+    "image":"gibbering_mouther.jpg",
     "size": "Medium",
     "type": "aberration",
     "subtype": "",
@@ -8508,7 +8508,7 @@
   },
   {
     "name": "Glabrezu",
-    "image":"",
+    "image":"glabrezu.jpg",
     "size": "Large",
     "type": "fiend",
     "subtype": "demon",
@@ -8575,7 +8575,7 @@
   },
   {
     "name": "Gladiator",
-    "image":"",
+    "image":"gladiator.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -8645,7 +8645,7 @@
   },
   {
     "name": "Gnoll",
-    "image":"",
+    "image":"gnoll.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "gnoll",
@@ -8700,7 +8700,7 @@
   },
   {
     "name": "Goat",
-    "image":"",
+    "image":"goat.jpg",
     "size": "Medium",
     "type": "beast",
     "subtype": "",
@@ -8747,7 +8747,7 @@
   },
   {
     "name": "Goblin",
-    "image":"",
+    "image":"goblin.jpg",
     "size": "Small",
     "type": "humanoid",
     "subtype": "goblinoid",
@@ -8796,7 +8796,7 @@
   },
   {
     "name": "Gold Dragon Wyrmling",
-    "image":"",
+    "image":"gold_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -8849,7 +8849,7 @@
   },
   {
     "name": "Gorgon",
-    "image":"",
+    "image":"gorgon.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -8903,7 +8903,7 @@
   },
   {
     "name": "Gray Ooze",
-    "image":"",
+    "image":"gray_ooze.jpg",
     "size": "Medium",
     "type": "ooze",
     "subtype": "",
@@ -8955,7 +8955,7 @@
   },
   {
     "name": "Green Dragon Wyrmling",
-    "image":"",
+    "image":"green_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -9008,7 +9008,7 @@
   },
   {
     "name": "Green Hag",
-    "image":"",
+    "image":"green_hag.jpg",
     "size": "Medium",
     "type": "fey",
     "subtype": "",
@@ -9088,7 +9088,7 @@
   },
   {
     "name": "Grick",
-    "image":"",
+    "image":"grick.jpg",
     "size": "Medium",
     "type": "monstrosity",
     "subtype": "",
@@ -9141,7 +9141,7 @@
   },
   {
     "name": "Griffon",
-    "image":"",
+    "image":"griffon.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -9195,7 +9195,7 @@
   },
   {
     "name": "Grimlock",
-    "image":"",
+    "image":"grimlock.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "grimlock",
@@ -9249,7 +9249,7 @@
   },
   {
     "name": "Guard",
-    "image":"",
+    "image":"guard.jpg",
     "size": "Medium",
     "type": "humanoid",
     "subtype": "any race",
@@ -9284,7 +9284,7 @@
   },
   {
     "name": "Guardian Naga",
-    "image":"",
+    "image":"guardian_naga.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -9341,7 +9341,7 @@
   },
   {
     "name": "Gynosphinx",
-    "image":"",
+    "image":"gynosphinx.jpg",
     "size": "Large",
     "type": "monstrosity",
     "subtype": "",
@@ -13609,7 +13609,7 @@
   },
   {
     "name": "Red Dragon Wyrmling",
-    "image":"",
+    "image":"red_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -14700,7 +14700,7 @@
   },
   {
     "name": "Silver Dragon Wyrmling",
-    "image":"",
+    "image":"silver_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -17429,7 +17429,7 @@
   },
   {
     "name": "White Dragon Wyrmling",
-    "image":"",
+    "image":"white_dragon_wyrmling.jpg",
     "size": "Medium",
     "type": "dragon",
     "subtype": "",
@@ -17915,8 +17915,8 @@
     ]
   },
   {
-    "name": "Young Black Dragon",
-    "image":"",
+    "name": "Black Dragon (Young)",
+    "image":"black_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -17980,8 +17980,8 @@
     ]
   },
   {
-    "name": "Young Blue Dragon",
-    "image":"",
+    "name": "Blue Dragon (Young)",
+    "image":"blue_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18038,8 +18038,8 @@
     ]
   },
   {
-    "name": "Young Brass Dragon",
-    "image":"",
+    "name": "Brass Dragon (Young)",
+    "image":"brass_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18097,8 +18097,8 @@
     ]
   },
   {
-    "name": "Young Bronze Dragon",
-    "image":"",
+    "name": "Bronze Dragon (Young)",
+    "image":"bronze_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18163,8 +18163,8 @@
     ]
   },
   {
-    "name": "Young Copper Dragon",
-    "image":"",
+    "name": "Copper Dragon (Young)",
+    "image":"copper_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18222,8 +18222,8 @@
     ]
   },
   {
-    "name": "Young Gold Dragon",
-    "image":"",
+    "name": "Gold Dragon (Young)",
+    "image":"gold_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18289,8 +18289,8 @@
     ]
   },
   {
-    "name": "Young Green Dragon",
-    "image":"",
+    "name": "Green Dragon (Young)",
+    "image":"green_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18355,8 +18355,8 @@
     ]
   },
   {
-    "name": "Young Red Dragon",
-    "image":"",
+    "name": "Red Dragon (Young)",
+    "image":"red_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18413,8 +18413,8 @@
     ]
   },
   {
-    "name": "Young Silver Dragon",
-    "image":"",
+    "name": "Silver Dragon (Young)",
+    "image":"silver_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",
@@ -18473,8 +18473,8 @@
     ]
   },
   {
-    "name": "Young White Dragon",
-    "image":"",
+    "name": "White Dragon (Young)",
+    "image":"white_dragon.jpg",
     "size": "Large",
     "type": "dragon",
     "subtype": "",

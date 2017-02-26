@@ -20,7 +20,7 @@ page-monstro {
     z-index: 2;
     background-color: #fafafa;
     min-height: calc(100% - 200px);
-    box-shadow: 0px -5px 20px 5px rgba(#000, .5);
+    box-shadow: 0px -5px 40px 2px rgba(#000, .2);
 
     section.bloco1, section.bloco2, section.bloco3{
       position: relative;
@@ -34,11 +34,12 @@ page-monstro {
       background-color: #333;
       color: #e5e5e5;
       .type{
+        font-size: .8em;
         text-transform: capitalize;
         span{ @extend .fonte-small }
       }
       .alignment{
-        
+        font-size: .8em;
       }
       .cr{
         background-color: map-get($colors, danger);
@@ -100,11 +101,13 @@ page-monstro {
       }
     }
 
-    section.bloco5, section.bloco6{
+    section.bloco5, section.bloco6, section.bloco7, section.bloco8{
       color: #333;
       padding: 10px;
       > div{
-        margin-bottom: 5px;
+        &:not(:last-child){
+          margin-bottom: 5px;
+        }
         span.titulo{
           font-weight: 500;
         }
@@ -119,8 +122,12 @@ page-monstro {
       }
     }
 
-    section.bloco6{
-     border-top: 1px solid #e5e5e5;
+    section.bloco6, section.bloco7, section.bloco8{
+      border-top: 1px solid #e5e5e5;
+      header{
+        text-align: center;
+        margin: 5px 0;
+      }
     }
 
 

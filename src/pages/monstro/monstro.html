@@ -61,25 +61,39 @@
       <div *ngIf="monstro.skills.length">
         <span class="titulo">Skills</span> <span class="um-item" *ngFor="let skill of monstro.skills">{{skill}}</span>
       </div>
-      <div *ngIf="monstro.damage_immunities.length">
+      <div *ngIf="monstro.damage_immunities?.length">
         <span class="titulo">Damage Immunities</span> {{monstro.damage_immunities}}
       </div>
-      <div *ngIf="monstro.damage_resistances.length">
+      <div *ngIf="monstro.damage_resistances?.length">
         <span class="titulo">Damage Resistances</span> {{monstro.damage_resistances}}
       </div>
-      <div *ngIf="monstro.damage_vulnerabilities.length">
+      <div *ngIf="monstro.damage_vulnerabilities?.length">
         <span class="titulo">Damage Vulnerabilities</span> {{monstro.damage_vulnerabilities}}
       </div>
-      <div *ngIf="monstro.condition_immunities.length">
+      <div *ngIf="monstro.condition_immunities?.length">
         <span class="titulo">Conditions Immunities</span> {{monstro.condition_immunities}}
       </div>
-      <div><span class="titulo">Senses </span> {{monstro.senses}}</div>
-      <div><span class="titulo">Languages </span> {{monstro.languages}}</div>
+      <div *ngIf="monstro.senses?.length"><span class="titulo">Senses </span> {{monstro.senses}}</div>
+      <div *ngIf="monstro.languages?.length"><span class="titulo">Languages </span> {{monstro.languages}}</div>
     </section>
 
-    <section class="bloco6" *ngIf="monstro.special_abilities.length">
+    <section class="bloco6" *ngIf="monstro.special_abilities?.length">
       <div *ngFor="let special of monstro.special_abilities">
         <span class="titulo">{{special.name}}</span> {{special.desc}}
+      </div>
+    </section>
+
+    <section class="bloco7" *ngIf="monstro.actions?.length">
+      <header>Actions</header>
+      <div *ngFor="let action of monstro.actions">
+        <span class="titulo">{{action.name}}</span> {{action.desc}}
+      </div>
+    </section>
+
+    <section class="bloco8" *ngIf="monstro.legendary_actions?.length">
+      <header>Legendary Actions</header>
+      <div *ngFor="let action of monstro.legendary_actions">
+        <span class="titulo">{{action.name}}</span> {{action.desc}}
       </div>
     </section>
 
