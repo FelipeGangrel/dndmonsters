@@ -1,0 +1,129 @@
+page-monstro {
+
+  .fonte-small{
+    color: #ccc; font-size: .8em
+  }
+  
+
+  div.imagem{
+    width: 100%;
+    height: 200px;
+    background-color: #414141;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    
+  }
+
+  div.conteudo{
+    z-index: 2;
+    background-color: #fafafa;
+    min-height: calc(100% - 200px);
+    box-shadow: 0px -5px 20px 5px rgba(#000, .5);
+
+    section.bloco1, section.bloco2, section.bloco3{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    section.bloco1{
+      margin-top: 200px;
+      padding: 10px;
+      background-color: #333;
+      color: #e5e5e5;
+      .type{
+        text-transform: capitalize;
+        span{ @extend .fonte-small }
+      }
+      .alignment{
+        
+      }
+      .cr{
+        background-color: map-get($colors, danger);
+        z-index: 3;
+        color: #fff;
+        align-self: center;
+        width: 50px;
+        height: 50px;
+        transform: rotate(45deg);
+        position: absolute;
+        left: 50%;
+        margin-left: -25px;
+        display: table;
+        border: 3px solid #333;
+        box-shadow: inset 2px 2px 2px 2px rgba(#000, .5);
+        div{
+          display: table-cell;
+          vertical-align: middle;
+          transform: rotate(-45deg);
+          text-align: center;
+          font-weight: 700;
+          span{
+            font-size: .9rem;
+          }
+        }
+      }
+    }
+
+    section.bloco2{
+      padding: 20px 10px 10px 10px;
+      background-color: #333;
+      color: #e5e5e5;
+      @extend .fonte-small;
+    }
+
+    section.bloco3{
+      padding: 10px;
+      background-color: #414141;
+      color: #fff;
+    }
+
+    section.bloco4{
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      >div{
+        flex-basis: calc(100% / 6);
+        padding: 10px 0;
+        background-color: map-get($colors, secondary);
+        color: #FFF;
+        &:nth-child(even){
+          background-color: darken(map-get($colors, secondary), 5%);
+        }
+        div{
+          font-size: .8em;
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+    section.bloco5, section.bloco6{
+      color: #333;
+      padding: 10px;
+      > div{
+        margin-bottom: 5px;
+        span.titulo{
+          font-weight: 500;
+        }
+        span.um-item{
+          text-transform: capitalize;
+          &:not(:last-child){
+            &:after{
+              content: ", ";
+            }
+          }
+        }
+      }
+    }
+
+    section.bloco6{
+     border-top: 1px solid #e5e5e5;
+    }
+
+
+  }
+
+}
