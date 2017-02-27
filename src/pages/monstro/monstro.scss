@@ -1,10 +1,198 @@
 page-monstro {
 
+  section.conteudo{
+    position: relative;
+    div.coluna1, div.coluna2{
+      position: relative;
+    }
+
+    div.coluna1{
+      position: relative;
+      background-color: #414141;
+      background-image: url('/assets/img/bestiario.jpg');
+      background-position: bottom center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #fff;
+
+      section.bloco1, section.bloco2{
+        position: relative;
+        height: 50px;
+        padding: 0 10px;
+        background-color: #333;
+
+        > div:last-child{
+          text-align: right;
+          padding-left: 35px;
+        }
+
+        div.wrapper{
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+      }
+
+      section.bloco1{
+        text-transform: capitalize;
+        div.type, div.alignment{
+          display: table;
+          float: left;
+          width: 50%;
+          height: 100%;
+        }
+        div.cr{
+          z-index: 5;
+          position: absolute;
+          background-color: map-get($colors, danger);
+          width: 50px;
+          height: 50px;
+          transform: rotate(45deg);
+          left: 50%;
+          margin-left: -25px;
+          top: 25px;
+          display: table;
+          box-shadow: inset 5px 5px 5px 0px rgba(#000, .5);
+          div{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            transform: rotate(-45deg);
+            font-weight: 700;
+            font-size: 1.4em;
+            span{
+              font-size: 1rem;
+            }
+          }
+        }
+
+      }
+
+      section.bloco2{
+        div.size, div.speed{
+          display: table;
+          float: left;
+          width: 50%;
+          height: 100%;
+        }
+          
+      }
+
+      section.bloco3{
+        position: relative;
+        background-color: #212121;
+        text-align: center;
+        > div {
+          display: table;
+          height: 50px;
+            div.wrapper{
+              display: table-cell;
+              vertical-align: middle;
+              span{
+                font-size: .8em;
+              }
+            }
+        }
+        div.hit-points, div.ac{
+          position: absolute;
+          top: 0;
+          width: 50px;
+        }
+        div.hit-points{
+          left: 0;
+        }
+        div.ac{
+          right: 0;
+        }
+        div.hit-dice{
+          position: relative;
+          // background-color: green;
+          width: calc(100% - 100px);
+          margin: 0 50px;
+        }
+      }
+
+
+    }
+
+    div.coluna2{
+
+      section.bloco5, section.bloco6, section.bloco7, section.bloco8{
+        color: #333;
+        padding: 10px;
+        > div{
+          &:not(:last-child){
+            margin-bottom: 5px;
+          }
+          span.titulo{
+            font-weight: 500;
+          }
+          span.um-item{
+            text-transform: capitalize;
+            &:not(:last-child){
+              &:after{
+                content: ", ";
+              }
+            }
+          }
+        }
+      }
+
+      section.bloco6, section.bloco7, section.bloco8{
+        border-top: 1px solid #e5e5e5;
+        header{
+          text-align: center;
+          margin-bottom: 5px;
+          color: map-get($colors, primary);
+          font-weight: 500;
+        }
+      }
+
+    }
+ 
+  }
+
+  @media only screen and (min-width: 800px) {
+    section.conteudo{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      
+      div.coluna1, div.coluna2{
+        width: 50%;
+        float: left;
+        height: 100%;
+      }
+
+      div.coluna1{
+        z-index: 1;
+        overflow: hidden;
+        div.container{
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+        }
+      }
+
+      div.coluna2{
+        z-index: 2;
+        overflow: hidden;
+        div.container{
+          height: 100%;
+          overflow: scroll;
+        }
+      }
+    }
+  }
+
+  /*
   .fonte-small{
     color: #ccc; font-size: .8em
   }
   
-
   div.imagem{
     width: 100%;
     height: 200px;
@@ -126,11 +314,14 @@ page-monstro {
       border-top: 1px solid #e5e5e5;
       header{
         text-align: center;
-        margin: 5px 0;
+        margin-bottom: 5px;
+        color: map-get($colors, primary);
+        font-weight: 500;
       }
     }
 
 
   }
+  */
 
 }

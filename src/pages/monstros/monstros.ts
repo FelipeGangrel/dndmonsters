@@ -43,9 +43,9 @@ export class MonstrosPage {
     }
   }
 
-  abrirMonstro(m: any){
+  abrirMonstro(monstro: any){
     this.navCtrl.push(MonstroPage, {
-      monstro: m
+      monstro: monstro
     });
   }
 

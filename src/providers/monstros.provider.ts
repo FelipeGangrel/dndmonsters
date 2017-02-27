@@ -22,13 +22,13 @@ export class MonstrosProvider {
       this.http.get('./assets/monstros.json')
         .map(res => res.json())
         .subscribe(data => {
-          this.data = data;
-          this.data = this.sortByKey(this.data, 'name');
+          this.data = this.sortByKey(data, 'name');
           resolve(this.data);
-        })
+        });
     });
 
   }
+
 
 
   sortByKey(array, key) {

@@ -9,10 +9,117 @@
 
 <ion-content>
 
-  <div class="imagem" [ngStyle]="{'background-image': 'url(' + './assets/img/monstros/' + monstro.image + ')'}">
-    
-  </div>
+  <section class="conteudo">
+
+    <div class="coluna1">
+
+      <div class="container">
+
+        <section class="bloco1">
+          <div class="type">
+            <div class="wrapper">
+              {{monstro.type}}
+            </div>
+          </div>
+          <div class="cr">
+            <div>
+              <span>CR</span><br>{{monstro.challenge_rating}}
+            </div>
+          </div>
+          <div class="alignment">
+            <div class="wrapper">
+              {{monstro.alignment}}
+            </div>
+          </div>
+        </section>
+
+        <section class="bloco2">
+          <div class="size">
+            <div class="wrapper">{{monstro.size}}</div>
+          </div>
+          <div class="speed">
+            <div class="wrapper">{{monstro.speed}}</div>
+          </div>
+        </section>
+
+        <section class="bloco3">
+          <div class="hit-points">
+            <div class="wrapper"><span>HP</span><br>{{monstro.hit_points}}</div>
+          </div>
+          <div class="hit-dice">
+            <div class="wrapper"><span>Hit Dice</span><br>{{monstro.hit_dice}}</div>
+          </div>
+          <div class="ac">
+            <div class="wrapper"><span>AC</span><br>{{monstro.armor_class}}</div>
+          </div>
+        </section>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="coluna2">
+
+      <div class="container">
+
+        <section class="bloco5">
+          <div *ngIf="monstro.saves.length">
+            <span class="titulo">Saving throws</span> <span class="um-item" *ngFor="let save of monstro.saves">{{save}}</span>
+          </div>
+          <div *ngIf="monstro.skills.length">
+            <span class="titulo">Skills</span> <span class="um-item" *ngFor="let skill of monstro.skills">{{skill}}</span>
+          </div>
+          <div *ngIf="monstro.damage_immunities?.length">
+            <span class="titulo">Damage Immunities</span> {{monstro.damage_immunities}}
+          </div>
+          <div *ngIf="monstro.damage_resistances?.length">
+            <span class="titulo">Damage Resistances</span> {{monstro.damage_resistances}}
+          </div>
+          <div *ngIf="monstro.damage_vulnerabilities?.length">
+            <span class="titulo">Damage Vulnerabilities</span> {{monstro.damage_vulnerabilities}}
+          </div>
+          <div *ngIf="monstro.condition_immunities?.length">
+            <span class="titulo">Conditions Immunities</span> {{monstro.condition_immunities}}
+          </div>
+          <div *ngIf="monstro.senses?.length"><span class="titulo">Senses </span> {{monstro.senses}}</div>
+          <div *ngIf="monstro.languages?.length"><span class="titulo">Languages </span> {{monstro.languages}}</div>
+        </section>
+
+        <section class="bloco6" *ngIf="monstro.special_abilities?.length">
+          <div *ngFor="let special of monstro.special_abilities">
+            <span class="titulo">{{special.name}}</span> {{special.desc}}
+          </div>
+        </section>
+
+        <section class="bloco7" *ngIf="monstro.actions?.length">
+          <header>Actions</header>
+          <div *ngFor="let action of monstro.actions">
+            <span class="titulo">{{action.name}}</span> {{action.desc}}
+          </div>
+        </section>
+
+        <section class="bloco8" *ngIf="monstro.legendary_actions?.length">
+          <header>Legendary Actions</header>
+          <div *ngFor="let action of monstro.legendary_actions">
+            <span class="titulo">{{action.name}}</span> {{action.desc}}
+          </div>
+        </section>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!--<div class="imagem" [ngStyle]="{'background-image': 'url(' + './assets/img/monstros/' + monstro.image + ')'}">
+  </div>-->
   
+  <!--
   <div class="conteudo">
 
     <section class="bloco1">
@@ -100,6 +207,8 @@
 
     
   </div>
+  -->
+
 
 
 
