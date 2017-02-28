@@ -14,3 +14,58 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+ion-menu{
+
+
+  div.conteudo{
+    background-color: map-get($colors, dark);
+    height: 100vh;
+
+    div.logo{
+      height: 56px;
+      background-color: map-get($colors, secondary);
+      background-image: url('../assets/img/icone.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 40px;
+    }
+
+    div.botao{
+      width: 100%;
+      height: auto;
+      display: block;
+      text-align: center;
+      color: map-get($colors, light);
+      font-size: .8em;
+      text-transform: uppercase;
+      letter-spacing: .3rem;
+      div.icone{
+        height: 50px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 32px;
+        font-size: .8em;
+        opacity: .5;
+        &.monstros{ background-image: url('../assets/img/icon_monstros.png'); }
+        &.magias{ background-image: url('../assets/img/icon_magias.png'); }
+      }
+      div.titulo{
+        padding: 5px 0;
+      }
+      &.active{
+        background-color: lighten(map-get($colors, dark), 5%);
+        border-right: 3px solid map-get($colors, primary);
+        div.icone, div.titulo{
+          opacity: .8;
+        }
+      }
+
+
+    }
+
+  }
+
+
+}

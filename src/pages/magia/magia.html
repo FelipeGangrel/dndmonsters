@@ -1,0 +1,54 @@
+<ion-header>
+
+
+  <ion-navbar color="primary">
+    <ion-title color="secondary">{{magia.name}}</ion-title>
+    <ion-buttons start>
+      <button *ngIf="!nosFavoritos()" ion-button icon-only (click)="favoritoAdd(magia.id)">
+        <ion-icon name="star-outline"></ion-icon>
+      </button>
+      <button *ngIf="nosFavoritos()" ion-button icon-only (click)="favoritoRemove(magia.id)">
+        <ion-icon name="star"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content>
+  <section class="conteudo">
+
+    <div class="coluna1">
+      <div class="container">
+
+        <section class="bloco1">
+          <div class="school"><div class="wrapper"><span class="titulo">School</span><br>{{magia.school}}</div></div>
+          <div class="level"><div><span>Lvl</span><br>{{magia.level}}</div></div>
+          <div class="duration"><div class="wrapper"><span class="titulo">Duration</span><br>{{magia.duration}}</div></div>
+        </section>
+
+        <section class="bloco2">
+          <div class="range"><div class="wrapper"><span class="titulo">Range</span><br>{{magia.range}}</div></div>
+          <div class="casting-time"><div class="wrapper"><span class="titulo">Casting time</span><br>{{magia.casting_time}}</div></div>
+        </section>
+
+        <section class="bloco3">
+          <div class="components"><div class="wrapper"><span class="titulo">Components</span> {{magia.components}}</div></div>
+        </section>
+
+      </div>
+    </div>
+
+    <div class="coluna2">
+      <div class="container">
+        <section class="bloco4">
+          <header>Description</header>
+          {{magia.description}}
+        </section>
+      </div>
+    </div>
+
+  </section>
+</ion-content>

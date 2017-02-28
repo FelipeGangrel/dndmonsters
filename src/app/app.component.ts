@@ -1,22 +1,51 @@
-import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { Platform, Nav } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
-import { TabsPage } from '../pages/tabs/tabs';
+import { FavoritosProvider } from '../providers/favoritos.provider';
 
+import { MonstrosPage } from '../pages/monstros/monstros';
+import { MagiasPage } from '../pages/magias/magias';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  providers: [FavoritosProvider]
 })
 export class MyApp {
-  rootPage = TabsPage;
+  @ViewChild(Nav) nav: Nav;
 
-  constructor(platform: Platform) {
-    platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      StatusBar.styleDefault();
+  public activePage: string = 'monstros';
+  public rootPage: any = MonstrosPage;
+
+  pages: Array<{title: string, classe: string, component: any}>;
+
+  constructor(
+    public platform: Platform, 
+    public favoritosProv: FavoritosProvider) {
+    
+    this.initializeApp();
+
+    this.pages = [
+      { title: 'Monsters', classe: 'monstros', component: MonstrosPage },
+      { title: 'Spells',  classe: 'magias', component: MagiasPage },
+    ];
+
+  }
+  
+  isActive(classe: string){
+    return classe == this.activePage ? 'active' : '';
+  }
+
+  initializeApp(){
+    this.platform.ready().then(() => {
+      StatusBar.backgroundColorByHexString('#039BE5');
       Splashscreen.hide();
     });
   }
+
+  openPage(page: any){
+    this.activePage = page.classe;
+    this.nav.setRoot(page.component);
+  }
+
 }

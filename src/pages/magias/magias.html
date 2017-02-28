@@ -1,4 +1,4 @@
-<ion-header >
+<ion-header>
   <ion-navbar color="primary">
     <button ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
     <ion-searchbar (ionInput)="getItems($event)" placeholder="buscar">
@@ -12,10 +12,11 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content color="">
+
+<ion-content>
   <ion-list no-lines>
-    <ion-item color="light" *ngFor="let monstro of monstros" (click)="abrirMonstro(monstro)">
-      {{monstro.name}} <ion-badge item-right color="secondary">{{monstro.challenge_rating}}</ion-badge>
+    <ion-item color="light" *ngFor="let magia of magias" (click)="abrirMagia(magia)">
+      {{magia.name}} <ion-badge item-right color="secondary">{{magia.school}}</ion-badge>
     </ion-item>
   </ion-list>
 </ion-content>

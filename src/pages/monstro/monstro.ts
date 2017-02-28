@@ -1,16 +1,26 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+import { FavoritosProvider } from '../../providers/favoritos.provider';
 
 @Component({
   selector: 'page-monstro',
-  templateUrl: 'monstro.html'
+  templateUrl: 'monstro.html',
+  providers: [FavoritosProvider]
 })
 export class MonstroPage {
 
   monstro: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public favoritosProv: FavoritosProvider) {
+    this.loadMonstro();
+  }
+
+  ionViewDidLoad() {
+    
+  }
+
+  loadMonstro(){ // Carregando dados do monstro
     this.monstro = this.navParams.get("monstro");
     // modificadores de habilidade
     this.monstro.str_mod = this.calcModifier(this.monstro.strength);
@@ -47,8 +57,18 @@ export class MonstroPage {
     if(this.monstro.persuasion) this.monstro.skills.push(`persuasion +${this.monstro.persuasion}`);
   }
 
-  ionViewDidLoad() {
-    
+
+  favoritoAdd(id: any){ // Adicionando o monstro
+    this.favoritosProv.addMonstro(id);
+  }
+
+  favoritoRemove(id: any){ // Removando o monstro
+    this.favoritosProv.removeMonstro(id);
+  }
+
+  nosFavoritos(){ // Verificando se o monstro consta dentre os favoritos
+    let favoritos = this.favoritosProv.listaMonstros();
+    return favoritos.indexOf(this.monstro.id) > -1 ? true : false;
   }
 
   calcModifier(value: number){

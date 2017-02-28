@@ -24,13 +24,17 @@ $font-path: "../assets/fonts";
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #673AB7,
-  secondary:  #009688,
+  primary:    #8BC34A, 
+  secondary:  #558B2F,
+
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #212121
 );
 
+
+$menu-width: 150px;
+$background-color: map-get($colors, light);
 
 // App iOS Variables
 // --------------------------------------------------
@@ -42,12 +46,13 @@ $colors: (
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
-
-$searchbar-md-input-search-icon-color: #FFF;
-$searchbar-md-input-clear-icon-color: #FFF;
-$searchbar-md-input-placeholder-color: #FFF;
-$searchbar-md-input-text-color: #FFF;
+$searchbar-md-input-search-icon-color: map-get($colors, light);
+$searchbar-md-input-clear-icon-color: map-get($colors, light);
+$searchbar-md-input-placeholder-color: map-get($colors, light);
+$searchbar-md-input-text-color: map-get($colors, light);
+$searchbar-md-input-box-shadow: none;
 $searchbar-md-input-background-color: transparent;
+
 
 
 // App Windows Variables
@@ -80,3 +85,11 @@ $searchbar-md-input-background-color: transparent;
 
 @import "roboto";
 @import "noto-sans";
+
+@import "./font-awesome/font-awesome"; 
+@font-face { font-family: 'FontAwesome'; src: url('../assets/fonts/fontawesome-webfont.eot?v=#{$fa-version}');
+src: url('../assets/fonts/fontawesome-webfont.eot?#iefix&v=#{$fa-version}') format('embedded-opentype'),
+url('../assets/fonts/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2'),
+url('../assets/fonts/fontawesome-webfont.woff?v=#{$fa-version}') format('woff'),
+url('../assets/fonts/fontawesome-webfont.ttf?v=#{$fa-version}') format('truetype'),
+url('../assets/fonts/fontawesome-webfont.svg?v=#{$fa-version}#fontawesomeregular') format('svg'); font-weight: normal; font-style: normal; }

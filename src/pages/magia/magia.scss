@@ -1,9 +1,10 @@
-page-monstro {
+page-magia {
 
   section.conteudo{
     position: relative;
     div.coluna1, div.coluna2{
       position: relative;
+      font-size: .9em;
     }
 
     div.coluna1{
@@ -11,7 +12,6 @@ page-monstro {
       color: #555;
       // background-image: url('../assets/img/bg-monstro.jpg');
       // background-size: cover;
-
 
       section.bloco1, section.bloco2{
         position: relative;
@@ -27,19 +27,22 @@ page-monstro {
         div.wrapper{
           display: table-cell;
           vertical-align: middle;
+          span.titulo{
+            font-weight: 500;
+          }
         }
 
       }
 
       section.bloco1{
         text-transform: capitalize;
-        div.type, div.alignment{
+        div.school, div.duration{
           display: table;
           float: left;
           width: 50%;
           height: 100%;
         }
-        div.cr{
+        div.level{
           color: #fff;
           z-index: 5;
           position: absolute;
@@ -71,7 +74,7 @@ page-monstro {
       }
 
       section.bloco2{
-        div.size, div.speed{
+        div.range, div.casting-time{
           display: table;
           float: left;
           width: 50%;
@@ -81,91 +84,23 @@ page-monstro {
       }
 
       section.bloco3{
-        position: relative;
-        // color: #fff;
-        background-color: darken(map-get($colors, light),5%);
-        border-top: 1px solid darken(map-get($colors, light),10%);
-        text-align: center;
-        font-size: 1.4em;
-        > div {
-          display: table;
-          height: 70px;
-            div.wrapper{
-              display: table-cell;
-              vertical-align: middle;
-              span{
-                font-size: .6em;
-                line-height: 2em;
-              }
-            }
-        }
-        div.hit-points, div.ac{
-          position: absolute;
-          top: 0;
-          width: 50px;
-        }
-        div.hit-points{
-          left: 0;
-        }
-        div.ac{
-          right: 0;
-        }
-        div.hit-dice{
-          position: relative;
-          width: calc(100% - 100px);
-          margin: 0 50px;
-        }
-      }
-
-      section.bloco4{
-        position: relative;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
+        padding: 20px 10px;
+        color: map-get($colors, light);
+        background-color: map-get($colors, secondary);
         border-bottom: 3px solid darken(map-get($colors, secondary),10%);
-        >div{
-          flex-basis: calc(100% / 6);
-          padding: 20px 0;
-          background-color: map-get($colors, secondary);
-          color: #FFF;
-          &:nth-child(even){
-            background-color: darken(map-get($colors, secondary), 5%);
-          }
-          div{
-            font-size: .8em;
-            margin-bottom: 5px;
-          }
+        span.titulo{
+          font-weight: 500;
         }
       }
-
 
     }
 
     div.coluna2{
-      section.bloco5, section.bloco6, section.bloco7, section.bloco8{
+      section.bloco4{
+        border-top: 1px solid #e5e5e5;
         color: #333;
         padding: 10px;
         line-height: 1.5em;
-        > div{
-          &:not(:last-child){
-            margin-bottom: 5px;
-          }
-          span.titulo{
-            font-weight: 500;
-          }
-          span.um-item{
-            text-transform: capitalize;
-            &:not(:last-child){
-              &:after{
-                content: ", ";
-              }
-            }
-          }
-        }
-      }
-
-      section.bloco6, section.bloco7, section.bloco8{
-        border-top: 1px solid #e5e5e5;
         header{
           text-align: center;
           margin-bottom: 5px;
@@ -173,9 +108,8 @@ page-monstro {
           font-weight: 500;
         }
       }
-
     }
- 
+
   }
 
   @media only screen and (min-width: 800px) {
@@ -211,7 +145,6 @@ page-monstro {
       }
     }
   }
-
 
 
 }

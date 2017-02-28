@@ -4,31 +4,31 @@ import 'rxjs/add/operator/map';
 
 
 @Injectable()
-export class MonstrosProvider {
+export class MagiasProvider {
 
-  monstros: any;
+  spells: any;
 
   constructor(public http: Http) {
-    console.log('Hello Monstros Provider');
+    console.log('Hello MagiasProvider Provider');
   }
 
   getAll(){
 
-    if(this.monstros){
-      return Promise.resolve(this.monstros);
+    if(this.spells){
+      return Promise.resolve(this.spells);
     }
 
     return new Promise(resolve => {
-      this.http.get('./assets/monstros.json')
+      this.http.get('./assets/spells.json')
         .map(res => res.json())
         .subscribe(data => {
-          this.monstros = this.sortByKey(data, 'name');
+          this.spells = this.sortByKey(data, 'name');
           
-          this.monstros.forEach((item, index) => {
-            this.monstros[index].id = index;
+          this.spells.forEach((item, index) => {
+            this.spells[index].id = index;
           });
 
-          resolve(this.monstros);
+          resolve(this.spells);
         });
     });
 
@@ -40,5 +40,6 @@ export class MonstrosProvider {
         return ((x < y) ? -1 : ((x > y) ? 1 : 0));
     });
   }
+
 
 }
