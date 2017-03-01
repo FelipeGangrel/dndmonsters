@@ -1,3 +1,4 @@
+import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
@@ -20,12 +21,19 @@ import { ArmasRangedSimplePage } from '../pages/armas-ranged-simple/armas-ranged
 import { ArmasRangedMartialPage } from '../pages/armas-ranged-martial/armas-ranged-martial';
 import { ArmasFirePage } from '../pages/armas-fire/armas-fire';
 
+import { TabsPage } from '../pages/tabs/tabs';
 
+const cloudSettings: CloudSettings = {
+  'core': {
+    'app_id': '77e02911'
+  }
+};
 
 
 @NgModule({
   declarations: [
     MyApp,
+    TabsPage,
     MonstrosPage,
     MagiasPage,
     MagiaPage,
@@ -39,11 +47,13 @@ import { ArmasFirePage } from '../pages/armas-fire/armas-fire';
     ArmasFirePage
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    CloudModule.forRoot(cloudSettings)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    TabsPage,
     MonstrosPage,
     MagiasPage,
     MagiaPage,

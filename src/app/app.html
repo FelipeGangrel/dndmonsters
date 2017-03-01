@@ -3,7 +3,9 @@
   <ion-content>
 
     <div class="conteudo">
-      <div class="logo"></div>
+      <div class="logo">
+        <span>D&D</span>Companion
+      </div>
 
       <div class="botao" [ngClass]="isActive(p.classe)" menuClose *ngFor="let p of pages" (click)="openPage(p)">
         <div class="icone {{p.classe}}"></div>

@@ -26,10 +26,15 @@ ion-menu{
     div.logo{
       height: 56px;
       background-color: map-get($colors, secondary);
-      background-image: url('../assets/img/icone.png');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: map-get($colors, dark);
+      span{
+        font-weight: 700;
+      }
     }
 
     div.botao{
