@@ -1,12 +1,12 @@
 <ion-header >
   <ion-navbar color="primary">
-    <button ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
-    <ion-searchbar (ionInput)="getItems($event)" placeholder="buscar">
+    <button color="icons-nav" ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="Search monsters">
     </ion-searchbar>
     <ion-buttons start>
       <button ion-button icon-only (click)="filtraFavoritos()">
-        <ion-icon name="star-outline" *ngIf="!favoritosToggle"></ion-icon>
-        <ion-icon name="star" *ngIf="favoritosToggle"></ion-icon>
+        <ion-icon name="star-outline" color="icons-nav" *ngIf="!favoritosToggle"></ion-icon>
+        <ion-icon name="star" color="icons-nav" *ngIf="favoritosToggle"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -15,7 +15,7 @@
 <ion-content color="">
   <ion-list no-lines>
     <ion-item color="light" *ngFor="let monstro of monstros" (click)="abrirMonstro(monstro)">
-      {{monstro.name}} <ion-badge item-right color="secondary">{{monstro.challenge_rating}}</ion-badge>
+      {{monstro.name}} <ion-badge item-right color="badge">{{monstro.challenge_rating}}</ion-badge>
     </ion-item>
   </ion-list>
 </ion-content>

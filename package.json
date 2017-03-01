@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "dnd_companion",
+  "author": "Felipe Gangrel",
+  "homepage": "https://felipegangrel.github.io/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -40,5 +40,5 @@
     "cordova-plugin-splashscreen"
   ],
   "cordovaPlatforms": [],
-  "description": "dndmonsters: An Ionic project"
+  "description": "DnD Companion"
 }

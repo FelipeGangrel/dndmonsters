@@ -4,20 +4,16 @@ page-magia {
     position: relative;
     div.coluna1, div.coluna2{
       position: relative;
-      font-size: .9em;
     }
 
     div.coluna1{
       position: relative;
       color: #555;
-      // background-image: url('../assets/img/bg-monstro.jpg');
-      // background-size: cover;
-
       section.bloco1, section.bloco2{
         position: relative;
         height: 50px;
         padding: 0 10px;
-        font-size: .9em;
+        font-size: .8em;
         background-color: map-get($colors, light);
         > div:last-child{
           text-align: right;
@@ -29,6 +25,8 @@ page-magia {
           vertical-align: middle;
           span.titulo{
             font-weight: 500;
+            color: #999;
+            font-size: .8em;
           }
         }
 
@@ -46,7 +44,7 @@ page-magia {
           color: #fff;
           z-index: 5;
           position: absolute;
-          background-color: map-get($colors, secondary);
+          background-color: map-get($colors, primary);
           width: 50px;
           height: 50px;
           transform: rotate(45deg);
@@ -86,8 +84,8 @@ page-magia {
       section.bloco3{
         padding: 20px 10px;
         color: map-get($colors, light);
-        background-color: map-get($colors, secondary);
-        border-bottom: 3px solid darken(map-get($colors, secondary),10%);
+        background-color: lighten(map-get($colors, dark), 10%);
+        border-bottom: 3px solid lighten(map-get($colors, dark),5%);
         span.titulo{
           font-weight: 500;
         }

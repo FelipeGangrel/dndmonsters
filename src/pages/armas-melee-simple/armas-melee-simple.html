@@ -1,0 +1,33 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <button color="icons-nav" ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="Search weapons">
+    </ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content color="">
+
+  <ion-list no-lines>
+
+    <ion-item color="light" *ngFor="let arma of armas" (click)="selecionaArma(arma.id);" [ngClass]="{'open': armaSelecionada === arma.id}">
+      {{arma.name}}
+      <div class="arma" *ngIf="armaSelecionada === arma.id">
+
+        <section class="bloco1">
+          <div><div class="cost">Cost</div>{{arma.cost}}</div>
+          <div><div class="weight">Weight</div>{{arma.weight}}</div>
+          <div><div class="weight">Damage</div>{{arma.damage}} {{arma.damage_type}}</div>
+        </section>
+
+        <section class="bloco2" *ngIf="arma.properties.length">
+          <div class="titulo">Properties</div> 
+          <span class="propriedade" *ngFor="let propriedade of arma.properties">{{propriedade}}</span>
+        </section>
+
+      </div>
+    </ion-item>
+
+  </ion-list>
+  
+</ion-content>

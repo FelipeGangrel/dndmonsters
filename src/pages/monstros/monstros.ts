@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
-import { MonstrosProvider } from '../../providers/monstros.provider';
+import { DataService } from '../../providers/data.service';
 import { FavoritosProvider } from '../../providers/favoritos.provider';
 
 import { MonstroPage } from '../../pages/monstro/monstro';
@@ -9,7 +9,7 @@ import { MonstroPage } from '../../pages/monstro/monstro';
 @Component({
   selector: 'page-mosntros',
   templateUrl: 'monstros.html',
-  providers: [MonstrosProvider, FavoritosProvider]
+  providers: [DataService, FavoritosProvider]
 })
 export class MonstrosPage {
 
@@ -23,7 +23,7 @@ export class MonstrosPage {
 
   constructor(
     public navCtrl: NavController, 
-    public monstrosProv: MonstrosProvider,
+    public dataServ: DataService,
     public favoritosProv: FavoritosProvider
     ) {
     
@@ -33,7 +33,7 @@ export class MonstrosPage {
   loadMonstros(){
     this.favoritosProv.listaMonstrosPromise().then(data =>{
       let fav_ids: any = data;
-      this.monstrosProv.getAll().then(data =>{
+      this.dataServ.getMonsters().then(data =>{
         this.todosMonstros = data;
         this.monstros = this.todosMonstros;
         this.favoritosMonstros = [];

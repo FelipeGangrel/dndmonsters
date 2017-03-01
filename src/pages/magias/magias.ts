@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { MagiasProvider } from '../../providers/magias.provider';
+import { DataService } from '../../providers/data.service';
 import { FavoritosProvider } from '../../providers/favoritos.provider';
 
 import { MagiaPage } from '../../pages/magia/magia';
@@ -8,7 +8,7 @@ import { MagiaPage } from '../../pages/magia/magia';
 @Component({
   selector: 'page-magias',
   templateUrl: 'magias.html',
-  providers: [MagiasProvider, FavoritosProvider]
+  providers: [DataService, FavoritosProvider]
 })
 export class MagiasPage {
 
@@ -22,7 +22,7 @@ export class MagiasPage {
 
   constructor(
     public navCtrl: NavController, 
-    public magiasProv: MagiasProvider,
+    public dataServ: DataService,
     public favoritosProv: FavoritosProvider
   ) {
 
@@ -31,7 +31,7 @@ export class MagiasPage {
   loadMagias(){
     this.favoritosProv.listaMagiasPromise().then(data =>{
       let fav_ids: any = data;
-      this.magiasProv.getAll().then(data =>{
+      this.dataServ.getSpells().then(data =>{
         this.todasMagias = data;
         this.magias = this.todasMagias;
         this.favoritasMagias = [];

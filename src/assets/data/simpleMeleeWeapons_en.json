@@ -1,0 +1,417 @@
+[
+    {
+        "name": "Barbed Dagger",
+        "cost": "10 gp",
+        "damage": "2d4",
+        "damage_type": "piercing",
+        "weight": "1 lb",
+        "Homebrew": "True",
+        "properties": [
+            "Light", 
+            "Finesse", 
+            "Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Brandistock",
+        "cost": "10 gp",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "weight": "4 lb",
+        "Homebrew": "True",
+        "properties": [
+            "Special",
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Broken Sword",
+        "cost": "5 sp",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "weight": "1 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Cestus",
+        "cost": "5 sp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "0.5 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Special"
+        ]
+    },
+    {
+        "name": "Club",
+        "cost": "1 sp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Light"
+        ]
+    },
+    {
+        "name": "Dagger",
+        "cost": "2 gp",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "weight": "1 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Light", 
+            "Finesse",
+            "Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Double Spear",
+        "cost": "5 gp",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": "4 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Versatile (1d8)", 
+            "Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Eye Sickle",
+        "cost": "10 gp",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": "4 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Falx",
+        "cost": "8 gp",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "weight": "3 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Versatile (1d8)"
+        ]
+    },
+    {
+        "name": "Fauchard",
+        "cost": "10 gp",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "weight": "7 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Heavy", 
+            "reach",
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Flamberge",
+        "cost": "15 gp",
+        "damage": "1d8 + 1d2",
+        "damage_type": "slashing + ripping",
+        "weight": "6 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Ripping", 
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Gavel",
+        "cost": "5 sp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "0.5 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Undersized"
+        ]
+    },
+    {
+        "name": "Greatclub",
+        "cost": "2 sp",
+        "damage": "1d8",
+        "damage_type": "bludgeoning",
+        "weight": "10 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Greatspear",
+        "cost": "25 gp",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "weight": "8 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Oversized",
+            "Thrown (20/60)", 
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Handaxe",
+        "cost": "5 gp",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "weight": "2 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Light", 
+            "Thrown (20/60)" 
+        ]
+    },
+    {
+        "name": "Iron Claws",
+        "cost": "5 gp",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "weight": "2 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Javelin",
+        "cost": "5 sp",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": "2 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Thrown (30/120)"
+        ]
+    },
+    {
+        "name": "Karambit",
+        "cost": "4 gp",
+        "damage": "1d4",
+        "damage_type": "slashing",
+        "weight": "1 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Katar",
+        "cost": "5 gp",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "weight": "1 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Knife",
+        "cost": "2 sp",
+        "damage": "1d3",
+        "damage_type": "slashing",
+        "weight": "0.25 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Undersized", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Knuckleduster",
+        "cost": "3 sp",
+        "damage": "Unarmed Damage + 1",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Special"
+        ]
+    },
+    {
+        "name": "Ko",
+        "cost": "1 gp",
+        "damage": "1d4",
+        "damage_type": "piercing / bludgeoning",
+        "weight": "1 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse",
+            "Special"
+        ]
+    },
+    {
+        "name": "Kukri",
+        "cost": "6 gp",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "weight": "2 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Light Hammer",
+        "cost": "2 gp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Light",
+            "Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Mace",
+        "cost": "5 gp",
+        "damage": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "Homebrew": "False",
+        "properties": []
+    },
+    {
+        "name": "Needle",
+        "cost": "2 sp",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "weight": "0.25 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Undersized", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Quarterstaff",
+        "cost": "2 sp",
+        "damage": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "4 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Versatile (1d8)"
+        ]
+    },
+    {
+        "name": "Sap",
+        "cost": "1 gp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Light", 
+            "Finesse"
+        ]
+    },
+    {
+        "name": "Scythe",
+        "cost": "5 gp",
+        "damage": "2d4",
+        "damage_type": "slashing",
+        "weight": "5 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Heavy", 
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Sickle",
+        "cost": "1 gp",
+        "damage": "1d4",
+        "damage_type": "slashing",
+        "weight": "2 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Light"
+        ]
+    },
+    {
+        "name": "Spade",
+        "cost": "2 gp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "4 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Versatile" 
+        ]
+    },
+    {
+        "name": "Spear",
+        "cost": "1 gp",
+        "damage": "1d4",
+        "damage_type": "slashing",
+        "weight": "3 lb",
+        "Homebrew": "False",
+        "properties": [ 
+            "Thrown (20/60)",
+            "Versatile (1d8)"
+        ]
+    },
+    {
+        "name": "Torch Mace",
+        "cost": "6 gp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Special"
+        ]
+    },
+    {
+        "name": "Torch Staff",
+        "cost": "12 gp",
+        "damage": "2d4",
+        "damage_type": "bludgeoning",
+        "weight": "7 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Heavy", 
+            "Two-handed",
+            "Special"
+        ]
+    },
+    {
+        "name": "Zerka",
+        "cost": "10 sp",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "weight": "3 lb",
+        "Homebrew": "True",
+        "properties": [ 
+            "Special", 
+            "Finesse",
+            "Thrown (40/160)"
+        ]
+    }
+]

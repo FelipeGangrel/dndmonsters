@@ -40,19 +40,23 @@ ion-menu{
       color: map-get($colors, light);
       font-size: .8em;
       text-transform: uppercase;
-      letter-spacing: .3rem;
+      letter-spacing: .1rem;
+
       div.icone{
         height: 50px;
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: 32px;
+        background-size: 36px;
         font-size: .8em;
         opacity: .5;
-        &.monstros{ background-image: url('../assets/img/icon_monstros.png'); }
-        &.magias{ background-image: url('../assets/img/icon_magias.png'); }
+        &.monsters{ background-image: url('../assets/img/monsters.png'); }
+        &.spells{ background-image: url('../assets/img/spells.png'); }
+        &.melee{ background-image: url('../assets/img/melee.png'); }
+        &.ranged{ background-image: url('../assets/img/ranged.png'); }
       }
       div.titulo{
         padding: 5px 0;
+        opacity: .5;
       }
       &.active{
         background-color: lighten(map-get($colors, dark), 5%);
@@ -67,5 +71,67 @@ ion-menu{
 
   }
 
+
+}
+
+
+@keyframes example {
+    from {
+      max-height: 0px;
+      opacity: 0;
+      background-color: #fff;
+    }
+    to {
+      max-height: 180px;
+      opacity: 1;
+      background-color: darken(map-get($colors, light),5%);
+    }
+}
+
+ion-item.open{
+  transition: background-color .3s ease-in-out;
+  transition-timing-function: linear;
+  background-color: darken(map-get($colors, light),5%);
+  border-bottom: 3px solid darken(map-get($colors, light),10%) !important;
+
+  animation-name: example;
+  animation-duration: 1s;
+
+  div.arma{
+    font-size: .8em;
+    color: #333;
+
+    section.bloco1{
+      margin-top: 10px;
+      border-top: 1px solid #e5e5e5;
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      > div{
+        height: 50px;
+        flex-basis: (100% / 3);
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        &:nth-child(2){text-align: center}
+        &:nth-child(3){text-align: right}
+        div{ font-weight: 500; font-size: .8em; }
+      }
+    }
+
+    section.bloco2{
+      div.titulo{
+        font-weight: 500;
+        font-size: .8em;
+      }
+      span.propriedade:not(:last-child){
+        &:after{
+          content: ", ";
+        }
+      }
+    }
+
+  }
 
 }

@@ -1,0 +1,147 @@
+[
+	{
+        "name": "Atlatl",
+        "cost": "5 gp",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": "1 lb",
+        "properties": [
+        	"Ammunition",
+        	"Range (50-100)",
+        	"Special"
+        ]
+    },
+    {
+        "name": "Blowgun",
+        "cost": "10 gp",
+        "damage": "1",
+        "damage_type": "piercing",
+        "weight": "1 lb",
+        "properties": [
+        	"Ammunition",
+        	"Range (25/100)",
+        	"Loading"
+        ]
+    },	
+    {
+        "name": "Bolas",
+        "cost": "1 gp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "properties": [
+        	"Special",
+        	"Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Boomerang",
+        "cost": "2 gp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "1 lb",
+        "properties": [
+        	"Special",
+        	"Thrown (20/60)"
+        ]
+    },			
+    {
+        "name": "Chakram",
+        "cost": "5 gp",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "weight": "0.5 lb",
+        "properties": [
+        	"Finesse",
+        	"Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Chatkcha",
+        "cost": "1 gp",
+        "damage": "1d6",
+        "damage_type": "slashing",
+        "weight": "2 lb",
+        "properties": [
+        	"Finesse",
+        	"Light",
+        	"Thrown (30/120)",
+        	"Special"
+        ]
+    },	
+    {
+        "name": "Crossbow, Hand",
+        "cost": "75 gp",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": "3 lb",
+        "properties": [
+        	"Ammunition",
+        	"Range (30/120)",
+        	"Light",
+        	"Loading"
+        ]
+    },	
+    {
+        "name": "Crossbow, Heavy",
+        "cost": "50 gp",
+        "damage": "1d10",
+        "damage_type": "piercing",
+        "weight": "18 lb",
+        "properties": [
+        	"Ammunition",
+        	"Range (100/400)",
+        	"Heavy",
+        	"Loading",
+        	"Two-Handed"
+        ]
+    },	
+    {
+        "name": "Crossbow, Repeating",
+        "cost": "250 gp",
+        "damage": "2d4",
+        "damage_type": "piercing",
+        "weight": "18 lb",
+        "properties": [
+        	"Ammunition",
+        	"Range (80/320)",
+        	"Heavy",
+        	"Two-Handed"
+        ]
+    },	
+    {
+        "name": "Longbow",
+        "cost": "50 gp",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "weight": "2 lb",
+        "properties": [
+        	"Ammunition",
+        	"Range (150/600)",
+        	"Heavy",
+        	"Two-Handed"
+        ]
+    },	
+    {
+        "name": "Net",
+        "cost": "1 gp",
+        "damage": "",
+        "damage_type": "",
+        "weight": "3 lb",
+        "properties": [
+        	"Special",
+        	"Range (5/15)",
+        	"Thrown"
+        ]
+    },	
+    {
+        "name": "Throwing Hammer",
+        "cost": "15 gp",
+        "damage": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "4 lb",
+        "properties": [
+        	"Thrown (60/120)"
+        ]
+    }		
+]

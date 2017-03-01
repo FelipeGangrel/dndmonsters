@@ -9,15 +9,11 @@ page-monstro {
     div.coluna1{
       position: relative;
       color: #555;
-      // background-image: url('../assets/img/bg-monstro.jpg');
-      // background-size: cover;
-
-
       section.bloco1, section.bloco2{
         position: relative;
         height: 50px;
         padding: 0 10px;
-        font-size: .9em;
+        font-size: .8em;
         background-color: map-get($colors, light);
         > div:last-child{
           text-align: right;
@@ -27,6 +23,11 @@ page-monstro {
         div.wrapper{
           display: table-cell;
           vertical-align: middle;
+          span.titulo{
+            font-weight: 500;
+            color: #999;
+            font-size: .8em;
+          }
         }
 
       }
@@ -43,7 +44,7 @@ page-monstro {
           color: #fff;
           z-index: 5;
           position: absolute;
-          background-color: map-get($colors, secondary);
+          background-color: map-get($colors, primary);
           width: 50px;
           height: 50px;
           transform: rotate(45deg);
@@ -86,16 +87,16 @@ page-monstro {
         background-color: darken(map-get($colors, light),5%);
         border-top: 1px solid darken(map-get($colors, light),10%);
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.2em;
         > div {
           display: table;
-          height: 70px;
+          height: 55px;
             div.wrapper{
               display: table-cell;
               vertical-align: middle;
               span{
                 font-size: .6em;
-                line-height: 2em;
+                line-height: 1.5em;
               }
             }
         }
@@ -122,14 +123,16 @@ page-monstro {
         display: flex;
         justify-content: space-around;
         text-align: center;
-        border-bottom: 3px solid darken(map-get($colors, secondary),10%);
+        border-bottom: 3px solid lighten(map-get($colors, dark),5%);
+        flex-wrap: wrap;
         >div{
-          flex-basis: calc(100% / 6);
-          padding: 20px 0;
-          background-color: map-get($colors, secondary);
-          color: #FFF;
+          font-size: 1.2em;
+          flex-basis: calc(100% / 3);
+          padding: 10px 0;
+          color: darken(map-get($colors, light),10%);
+          background-color: map-get($colors, dark);
           &:nth-child(even){
-            background-color: darken(map-get($colors, secondary), 5%);
+            background-color: lighten(map-get($colors, dark), 10%);
           }
           div{
             font-size: .8em;

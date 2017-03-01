@@ -1,0 +1,57 @@
+[
+	{
+        "name": "Crossbow, light",
+        "cost": "25 gp",
+        "damage": "1d8",
+        "damage_type": "piercing",
+        "weight": "5 lb",
+        "properties": [
+            "Ammunition (80/320)",
+            "Loading",
+            "Two-Handed"
+        ]
+    },
+    {
+        "name": "Dart",
+        "cost": "5 cp",
+        "damage": "1d4",
+        "damage_type": "piercing",
+        "weight": "0.25 lb",
+        "properties": [
+            "Finesse",
+            "Thrown (20/60)"
+        ]
+    },
+    {
+        "name": "Shortbow",
+        "cost": "25 gp",
+        "damage": "1d6",
+        "damage_type": "piercing",
+        "weight": "2 lb",
+        "properties": [
+            "Ammunition (80/320)",
+            "Two-handed"
+        ]
+    },
+    {
+        "name": "Sling",
+        "cost": "1 sp",
+        "damage": "1d4",
+        "damage_type": "bludgeoning",
+        "weight": "",
+        "properties": [
+            "Ammunition (30/120)"
+        ]
+    },
+	{
+        "name": "Slingstaff",
+        "cost": "2 sp",
+        "damage": "1d6",
+        "damage_type": "bludgeoning",
+        "weight": "2 lb",
+        "properties": [
+            "Ammunition (30/120)",
+            "Two-handed"
+        ]
+    }
+]

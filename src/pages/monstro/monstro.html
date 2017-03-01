@@ -2,11 +2,10 @@
   <ion-navbar color="primary">
     <ion-title>{{monstro.name}}</ion-title>
     <ion-buttons start>
-      <button *ngIf="!nosFavoritos()" ion-button icon-only (click)="favoritoAdd(monstro.id)">
+      <button color="icons-nav" *ngIf="!nosFavoritos()" ion-button icon-only (click)="favoritoAdd(monstro.id)">
         <ion-icon name="star-outline"></ion-icon>
       </button>
-
-      <button *ngIf="nosFavoritos()" ion-button icon-only (click)="favoritoRemove(monstro.id)">
+      <button color="icons-nav" *ngIf="nosFavoritos()" ion-button icon-only (click)="favoritoRemove(monstro.id)">
         <ion-icon name="star"></ion-icon>
       </button>
     </ion-buttons>
@@ -25,7 +24,7 @@
         <section class="bloco1">
           <div class="type">
             <div class="wrapper">
-              {{monstro.type}}
+              <span class="titulo">Type</span><br>{{monstro.type}}
             </div>
           </div>
           <div class="cr">
@@ -35,17 +34,17 @@
           </div>
           <div class="alignment">
             <div class="wrapper">
-              {{monstro.alignment}}
+              <span class="titulo">Alignment</span><br>{{monstro.alignment}}
             </div>
           </div>
         </section>
 
         <section class="bloco2">
           <div class="size">
-            <div class="wrapper">{{monstro.size}}</div>
+            <div class="wrapper"><span class="titulo">Size</span><br>{{monstro.size}}</div>
           </div>
           <div class="speed">
-            <div class="wrapper">{{monstro.speed}}</div>
+            <div class="wrapper"><span class="titulo">Speed</span><br>{{monstro.speed}}</div>
           </div>
         </section>
 

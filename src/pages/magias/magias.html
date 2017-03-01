@@ -1,12 +1,12 @@
 <ion-header>
   <ion-navbar color="primary">
-    <button ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
-    <ion-searchbar (ionInput)="getItems($event)" placeholder="buscar">
+    <button color="icons-nav" ion-button menuToggle icon-only><ion-icon name="menu"></ion-icon></button>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="Search spells">
     </ion-searchbar>
     <ion-buttons start>
       <button ion-button icon-only (click)="filtraFavoritos()">
-        <ion-icon name="star-outline" *ngIf="!favoritosToggle"></ion-icon>
-        <ion-icon name="star" *ngIf="favoritosToggle"></ion-icon>
+        <ion-icon name="star-outline" color="icons-nav" *ngIf="!favoritosToggle"></ion-icon>
+        <ion-icon name="star" color="icons-nav" *ngIf="favoritosToggle"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -16,7 +16,7 @@
 <ion-content>
   <ion-list no-lines>
     <ion-item color="light" *ngFor="let magia of magias" (click)="abrirMagia(magia)">
-      {{magia.name}} <ion-badge item-right color="secondary">{{magia.school}}</ion-badge>
+      {{magia.name}} <ion-badge item-right color="badge">{{magia.school}}</ion-badge>
     </ion-item>
   </ion-list>
 </ion-content>

@@ -6,6 +6,9 @@ import { FavoritosProvider } from '../providers/favoritos.provider';
 
 import { MonstrosPage } from '../pages/monstros/monstros';
 import { MagiasPage } from '../pages/magias/magias';
+import { ArmasMeleePage } from '../pages/armas-melee/armas-melee';
+import { ArmasRangedPage } from '../pages/armas-ranged/armas-ranged';
+
 
 @Component({
   templateUrl: 'app.html',
@@ -14,7 +17,7 @@ import { MagiasPage } from '../pages/magias/magias';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  public activePage: string = 'monstros';
+  public activePage: string = 'monsters';
   public rootPage: any = MonstrosPage;
 
   pages: Array<{title: string, classe: string, component: any}>;
@@ -26,8 +29,10 @@ export class MyApp {
     this.initializeApp();
 
     this.pages = [
-      { title: 'Monsters', classe: 'monstros', component: MonstrosPage },
-      { title: 'Spells',  classe: 'magias', component: MagiasPage },
+      { title: 'Monsters', classe: 'monsters', component: MonstrosPage },
+      { title: 'Spells',  classe: 'spells', component: MagiasPage },
+      { title: 'Melee Weapons',  classe: 'melee', component: ArmasMeleePage },
+      { title: 'Ranged Weapons',  classe: 'ranged', component: ArmasRangedPage },
     ];
 
   }
@@ -38,7 +43,8 @@ export class MyApp {
 
   initializeApp(){
     this.platform.ready().then(() => {
-      StatusBar.backgroundColorByHexString('#039BE5');
+      StatusBar.overlaysWebView(false);
+      StatusBar.backgroundColorByHexString('#27ae60');
       Splashscreen.hide();
     });
   }
