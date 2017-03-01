@@ -7,10 +7,14 @@
         <span>D&D</span>Companion
       </div>
 
-      <div class="botao" [ngClass]="isActive(p.classe)" menuClose *ngFor="let p of pages" (click)="openPage(p)">
-        <div class="icone {{p.classe}}"></div>
-        <div class="titulo">{{p.title}}</div>
+      <div class="botoes">
+        <div class="botao" [ngClass]="isActive(p.classe)" menuClose *ngFor="let p of pages" (click)="openPage(p)">
+          <div class="icone {{p.classe}}"></div>
+          <div class="titulo">{{p.title}}</div>
+        </div>
       </div>
+
+
     </div>
 
   </ion-content>
